@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - PvZ Wiki</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: 'Chewy', cursive;
+        }
+        h1, h2, h3, .card-title, .nav-wrapper a {
+            font-family: 'Chewy', cursive;
+            color: #2e7d32;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        p {
+            font-family: 'Chewy', cursive;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #222121;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+        .nav-wrapper a.brand-logo{
+            font-family: 'Chewy', cursive;
+            font-size: 24px;
+            color: white;
+        }
+        ul.right.hide-on-med-and-down a, a.sidenav-trigger{
+            color: #c8e6c9;
+        }
+        section.hero{
+            width: 100%;
+            height: 500px;
+            background-color: white;
+            background-image: url(img/banner.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        section.hero p{
+            color: #c8e6c9;
+            position: absolute;
+            top: -15px;
+            left: 0;
+            width: 100%;
+            height: 500px;
+            padding-top: 10em;
+            padding-left: 5em;
+            padding-right: 40%;
+            background-image: linear-gradient(rgba(200,230,201,0) 20%,rgba(200,230,201,.4) 40%,rgba(200,230,201,.7) 70%,rgba(200,230,201,1) 100%);
+        }
+        @media screen and (max-width: 670px){
+            section.hero{
+                height: 300px;
+            }
+            section.hero p{
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body class="green lighten-4">
+
+    <!-- Navbar -->
+    <nav class="green darken-3">
+        <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo">
+                <i class="material-icons">eco</i> PvZ Wiki
+            </a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="register.html"><i class="material-icons left">login</i>Login</a></li>
+                <li><a href="about.html"><i class="material-icons left">info</i>About</a></li>
+                <li><a href="gameplay.html"><i class="material-icons left">sports_esports</i>Gameplay</a></li>
+                <li><a href="plants.html"><i class="material-icons left">local_florist</i>Plants</a></li>
+                <li><a href="zombies.html"><i class="material-icons left">bug_report</i>Zombies</a></li>
+                <li><a href="gallery.html"><i class="material-icons left">photo_library</i>Gallery</a></li>
+                <li><a href="credits.html"><i class="material-icons left">emoji_events</i>Credits</a></li>
+            </ul>
+            <ul class="sidenav" id="mobile-nav">
+                <li><a href="register.html"><i class="material-icons left">login</i>Login</a></li>
+                <li><a href="about.html"><i class="material-icons left">info</i>About</a></li>
+                <li><a href="gameplay.html"><i class="material-icons left">sports_esports</i>Gameplay</a></li>
+                <li><a href="plants.html"><i class="material-icons left">local_florist</i>Plants</a></li>
+                <li><a href="zombies.html"><i class="material-icons left">bug_report</i>Zombies</a></li>
+                <li><a href="gallery.html"><i class="material-icons left">photo_library</i>Gallery</a></li>
+                <li><a href="credits.html"><i class="material-icons left">emoji_events</i>Credits</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <p></p>
+      </section>
+
+    <!-- Gallery Section -->
+    <div class="container">
+        <div class="section">
+            <h2 class="green-text text-darken-4 center">
+                <i class="material-icons">photo_library</i> PvZ Gallery
+            </h2>
+            <p class="flow-text center">Browse through the exciting world of Plants vs Zombies with images and video clips!</p>
+
+            <!-- Image Gallery -->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="gallery/peashooter.jpg" alt="Peashooter" class="materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <p>Peashooter in action!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="gallery/sunflower.jpg" alt="Sunflower" class="materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <p>Sunflower - The provider of sunlight.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="gallery/wallnut.jpg" alt="Wall-nut" class="materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <p>Wall-nut defending the garden.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Gallery -->
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <video width="100%" controls>
+                                <source src="gallery/Plants vs Zombies Music Video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="card-content">
+                            <p>PvZ Music Video!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <video width="100%" controls>
+                                <source src="gallery/gameplay.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="card-content">
+                            <p>Powerful plants take on hordes of zombies!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <audio src="pvz.mp3" controls autoplay loop></audio>
+
+    <!-- Footer -->
+    <footer class="green darken-3 white-text center">
+        <p>&copy; 2024 PvZ Wiki | All Rights Reserved</p>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+        $ (document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+        });
+    </script>
+</body>
+</html>

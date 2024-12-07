@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - PvZ Wiki</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: 'Chewy', cursive;
+        }
+        h1, h2, h3, .card-title, .nav-wrapper a {
+            font-family: 'Chewy', cursive;
+            color: #2e7d32;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        p {
+            font-family: 'Chewy', cursive;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #222121;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+        .nav-wrapper a.brand-logo{
+            font-family: 'Chewy', cursive;
+            font-size: 24px;
+            color: white;
+        }
+        ul.right.hide-on-med-and-down a, a.sidenav-trigger{
+            color: #c8e6c9;
+        }
+        @media screen and (max-width: 670px){
+            h2{
+                font-size: 2em;
+            }
+            p{
+                font-size: 0.7em;
+            }
+        }
+    </style>
+</head>
+<body class="green lighten-4">
+
+    
+    <!-- Navbar -->
+    <nav class="green darken-3">
+        <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo" style="margin-left: 10px;">
+                <i class="material-icons">eco</i> PvZ Wiki
+            </a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="register.html"><i class="material-icons left">login</i>Login</a></li>
+                <li><a href="about.html"><i class="material-icons left">info</i>About</a></li>
+                <li><a href="gameplay.html"><i class="material-icons left">sports_esports</i>Gameplay</a></li>
+                <li><a href="plants.html"><i class="material-icons left">local_florist</i>Plants</a></li>
+                <li><a href="zombies.html"><i class="material-icons left">bug_report</i>Zombies</a></li>
+                <li><a href="gallery.html"><i class="material-icons left">photo_library</i>Gallery</a></li>
+                <li><a href="credits.html"><i class="material-icons left">emoji_events</i>Credits</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="register.html"><i class="material-icons left">login</i>Login</a></li>
+        <li><a href="about.html"><i class="material-icons left">info</i>About</a></li>
+        <li><a href="gameplay.html"><i class="material-icons left">sports_esports</i>Gameplay</a></li>
+        <li><a href="plants.html"><i class="material-icons left">local_florist</i>Plants</a></li>
+        <li><a href="zombies.html"><i class="material-icons left">bug_report</i>Zombies</a></li>
+        <li><a href="gallery.html"><i class="material-icons left">photo_library</i>Gallery</a></li>
+        <li><a href="credits.html"><i class="material-icons left">emoji_events</i>Credits</a></li>
+    </ul>
+
+    <section class="container section scrollspy" id="photo's">
+        <div class="row">
+            <div class="col s4">
+                <img src="img/peashooter.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Peashooter</h2>
+                <p>A basic attacking plant that shoots peas at zombies.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/sunflower.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Sunflower</h2>
+                <p>Produce regular sun to power your plant placements.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/cherrybomb.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Cherry Bomb</h2>
+                <p>Explodes in a 3x3 area, dealing massive damaege to all zombies.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/wallnut.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Wall-nut</h2>
+                <p>A defensive plant that blocks zombie progress with its tough shell.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/potatomine.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Potato Mine</h2>
+                <p>Buried mine that explodes on contact with zombies after arming.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/snowpea.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Snow Pea</h2>
+                <p>Shoot frozen peas that slow zombies.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/chomper.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Chomper</h2>
+                <p>Devours zombies whole but takes time to chew.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/repeater.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Repeater</h2>
+                <p>Shoots two peas at a time for double damage.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/puffshroom.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Puff Shroom</h2>
+                <p>Short-range, free-shooting mushroom effective at night.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/sunshroom.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Sun Shroom</h2>
+                <p>Produces small sun at first but grows to produce full sun over time.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/fumeshroom.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Fume Shroom</h2>
+                <p>Shoots fumes that penetrate screen doors and hit multiple zombies.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/gravebuster.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Grave Buster</h2>
+                <p>Removes gravestones in night levels.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/hypnoshroom.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Hypno Shroom</h2>
+                <p>Makes a zombie fight for you when eaten.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/scaredyshroom.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Scaredy Shroom</h2>
+                <p>Long range shooter but hides when zombies get too close.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/iceshroom.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Ice Shroom</h2>
+                <p>Freeze all zombies on the screen for a short time.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/doomshroom.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Doom Shroom</h2>
+                <p> Causes a massive explosion in a large area, leaving craters.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/lilypad.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Lily Pad</h2>
+                <p>Allow plants to be placed on water.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/squash.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Squash</h2>
+                <p>Smashes zombies in its lane or adjacent lanes.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/threepeater.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Threepeater</h2>
+                <p>Shoots peas in three lanes at once.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/tanglekelp.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Tangle Kelp</h2>
+                <p>Pulls a zombie underwater, instantly defeating it.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/jalapeno.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Jalapeno</h2>
+                <p>Destroys all zombies in one lane with fire.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/spikeweed.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Spikeweed</h2>
+                <p>Damages zombies walking over it and pops tires.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/torchwood.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Torchwood</h2>
+                <p>Turns peas into fireballs, doubling their damage.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/tallnut.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Tall-nut</h2>
+                <p>A stronger version of wall-nut that blocks tall zombies.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/seashroom.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Sea Shroom</h2>
+                <p>Short range shooting mushroom usable in water.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/plantern.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Plantern</h2>
+                <p>Lights up fog covered areas.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/cactus.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Cactus</h2>
+                <p>Shoots spikes that pop balloon zombies.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/blover.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Blover</h2>
+                <p>Blows away fog and balloon zombies.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/splitpea.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Split Pea</h2>
+                <p>Shoots peas forward and backward.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/starfruit.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Starfruit</h2>
+                <p>Shoots stars in five directions.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/pumpkin.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Pumpkin</h2>
+                <p>Protects plants by encasing them in a shell.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/kernetpult.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Kernel Pult</h2>
+                <p>Throws kernels of corns at zombies, with a chance to throw butter to stun them.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/coffeebean.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Coffee Bean</h2>
+                <p>Wakes up sleeping msuhrooms for use in the daytime.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/garlic.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Garlic</h2>
+                <p>Redirects zombies to the other lanes when bitten.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/melonpult.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Melon Pult</h2>
+                <p>Lobs melon that deal heavy damage to groups of zombbies.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/wintermelon.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Winter Melon Pult</h2>
+                <p>A stronger version of melon pult that slows zombies with the freezing effects.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/twinsunflower.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Twin Sunflower</h2>
+                <p>Produces double the sun ( upgrade the suflower ) .</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/gatlingpea.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Gatling Pea</h2>
+                <p>Shoots four peas at a time ( upgrade to repeater ) .</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/goldmagnet.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Gold Magnet</h2>
+                <p>Collects coins and diamonds for you ( upgrade to magnet shroom ) .</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4 push-s7 offset-s1">
+                <img src="img/spikerock.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 pull-s4 right-align">
+                <h2 class="green-text text-darken-3">Spikerock</h2>
+                <p>Stronger version of spikeweed that deals more damage and survives longer.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <img src="img/cobcannon.png" alt="" class="responsive-img" width="100%">
+            </div>
+            <div class="col s6 offset-s1">
+                <h2 class="green-text text-darken-3">Cob Cannon</h2>
+                <p>Launches massive corn cobs for heavy area damage ( requires two kernel pults ) .</p>
+            </div>
+        </div>
+
+       
+
+    </section>
+    <audio src="pvz.mp3" controls autoplay loop></audio>
+
+    <!-- Footer -->
+    <footer class="green darken-3 white-text center">
+        <p>&copy; 2024 PvZ Wiki | All Rights Reserved</p>
+    </footer>
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const sidenav = document.querySelectorAll('.sidenav');
+            M.Sidenav.init(sidenav);
+        });
+    </script>
+</body>
+</html>
